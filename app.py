@@ -2,7 +2,6 @@ import pandas as pd
 import requests 
 import numpy as np 
 import streamlit as st 
-from tqdm import tqdm 
 from stqdm import stqdm
 
 def run_data_fetch(url, headers, out): 
